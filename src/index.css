@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, .font-headline {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.tonal-shift-bottom {
+  box-shadow: 0 4px 30px -10px rgba(42, 20, 180, 0.05);
+}
+
+.tonal-shift-top {
+  border-top: 1px solid rgba(199, 196, 215, 0.15);
+}
+
+.glass-pane {
+  background: rgba(218, 226, 253, 0.6);
+  backdrop-filter: blur(40px);
+  border: 1px solid rgba(199, 196, 215, 0.15);
+}
+
+.ambient-glow {
+  box-shadow: 0 32px 64px -12px rgba(19, 27, 46, 0.08);
+}
